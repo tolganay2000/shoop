@@ -1,0 +1,316 @@
+body{
+font-family: 'Roboto';
+font-style: normal;
+}
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    height: 50px;
+    width: 100%;
+    background: #EFEFEF;
+    left: 0px;
+    top: 0px;
+    padding-bottom: 20px;
+    }
+    .navbar2{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9;
+        height: 50px;
+        width: 100%;
+        left: 0px;
+        top: 200px;
+        padding-bottom: 20px;
+        border-top: 1px solid #EFEFEF;
+        }
+    .link-group{
+        list-style: none;
+        display: flex;
+    }
+    .link a{
+        color: #333333;
+        font-weight: 400;
+        text-decoration: none;
+        text-transform: capitalize;
+        padding: 10px 20px;
+        line-height: 16px;
+        transition: .5s;
+        font-size: 14px;
+    }
+    .link a:hover, .link.active a{
+        opacity: 1;
+    }
+    .logo_section{
+        position: absolute;
+        width: 100%;
+        left: 0px;
+    }
+.logo{
+position: absolute;
+padding-top: 20px;
+width: 13%;
+left: 25%;
+top: 70px;
+}
+h1{
+position: absolute;
+width: 17%;
+height: 3%;
+left: 21.09375%;
+top: 38%;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+color: #FFFFFF;
+}
+h2{
+position: absolute;
+width: 320px;
+height: 29px;
+left: 22%;
+top: 50px;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+}
+h3{
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+}
+h4{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+h5{
+    position: absolute;
+width: 80px;
+height: 19px;
+font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+text-align: center;
+letter-spacing: 0.05em;
+left: 85px;
+top: 230px;
+}
+.phone, .phone2{
+position: absolute;
+width: 7.62%;
+height: 19px;
+left: 60%;
+}
+.phone{
+top: 100px;
+}
+
+.phone2{
+top: 1810px;
+}    
+.call_button, .call_button2{
+position: absolute;
+width: 8.85%;
+height: 40px;
+left: 70%;
+border: 2px solid #66C05D;
+background-color: white;
+border-radius: 40px;
+}
+.call_button{
+    top: 100px;
+}
+.call_button2{
+    top: 1810px;
+}
+.main_kreslo{
+position: absolute;
+left: 0px;
+top: 272px;
+width: 100%;
+}
+.text_kreslo{
+position: absolute;
+width: 17%;
+height: 3.2%;
+left: 21.09375%;
+top: 52%;
+color: #FFFFFF;
+}
+.more_button{
+box-sizing: border-box;
+position: absolute;
+width: 8.85%;
+height: 3.7%;
+left: 21.09375%;
+top: 62%;
+background: #66C05D;
+border: 2px solid #FFFFFF;
+border-radius: 40px;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+}
+.shop_section{
+position: absolute;
+width: 100%;
+height: 95%;
+top:853px;
+left: 0px;
+background:#EFEFEF;
+}
+
+.box1, .box2, .box3,.box4{
+position: absolute;
+width: 255px;
+height: 363px;
+top: 130px;
+background: white;
+text-align: center;
+padding-top: 20px;
+}
+.box1{ left: 405px;}
+.box2{left: 690px;}
+.box3{left: 975px;}
+.box4{left: 1260px;}
+.buy_button{
+    position: absolute;
+width: 130px;
+height: 35px;
+background: #66C05D;
+border-radius: 30px;
+color: white;
+border: 1px solid #66C05D;
+left: 60px;
+top: 300px;
+}
+.feature1, .feature2{
+position: absolute;
+width: 540px;
+height: 212px;
+top: 600px;
+background: #66C05D;
+}
+.feature1{
+    left: 405px;
+}
+.feature2{
+    left: 975px;
+}
+.feature1_text, .feature2_text{
+position: absolute;
+width: 250px;
+height: 17px;
+top: 20px;
+left: 40px;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+}
+.feature1_description, .feature2_description{
+position: absolute;
+width: 231px;
+height: 40px;
+left: 40px;
+top: 50px;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #FFFFFF;
+}
+.envelope_img{
+position: absolute;
+width: 140px;
+height: 140px;
+right: 40px;
+top: 50px;
+}
+.email_button, .map_button{
+position: absolute;
+width: 225px;
+height: 35px;
+left: 40px;
+top: 150px;
+background: #FFFFFF;
+border-radius: 30px;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+color: #C4C4C4;
+border: 1px solid #FFFFFF;
+}
+.car_img{
+position: absolute;
+width: 180px;
+height: 100px;
+right: 40px;
+top: 70px;
+}
+
+/*.footer1{
+border: 1px solid #EFEFEF;
+position: absolute;
+width: 100%;
+height: 120px;
+left: 0px;
+}
+*/
+.footer2{
+position: absolute;
+width: 100%;
+height: 64px;
+left: 0px;
+top: 1890px;
+background: #EFEFEF;
+color: #828282;
+}
+.footer_text1{
+position: absolute;
+width: 584px;
+height: 14px;
+left: 405px;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+}
+.footer_text2{
+position: absolute;
+width: 181px;
+height: 14px;
+left: 1334px;
+text-align: right;
+color: #828282;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+}
+.address_text{
+    position: absolute;
+width: 12%;
+height: 1.5%;
+left: 44%;
+top: 1810px;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+}
+.youtube_img, .vk_img, .fc_img, .instagram_img{
+position: absolute;
+width: 45px;
+height: 45px;
+top: 1810px;
+}
+.youtube_img{left: 405px;}
+.vk_img{left: 470px;}
+.fc_img{left: 535px;}
+.instagram_img{left: 596px;}
